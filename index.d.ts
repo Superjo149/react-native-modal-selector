@@ -326,6 +326,13 @@ interface IModalSelectorProps<TOption> {
    * Default is `''`
    */
   selectedKey?: React.Key;
+
+  /**
+   * Define maxFontmultiplier for text resizing
+   * 
+   * Default is `undefined`
+   */
+  maxFontSizeMultiplier?: number;
 }
 
 export default class ModalSelector<TOption = IOption> extends React.Component<IModalSelectorProps<TOption>, any> {}
